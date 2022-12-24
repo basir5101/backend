@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "orders",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "category": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "advance": {
+      "type": "integer"
+    },
+    "due": {
+      "type": "integer"
+    },
+    "order_received": {
+      "type": "date"
+    },
+    "order_delivered": {
+      "type": "date"
+    },
+    "long": {
+      "type": "decimal"
+    },
+    "Komor": {
+      "type": "decimal"
+    },
+    "Thai": {
+      "type": "decimal"
+    },
+    "Hi": {
+      "type": "decimal"
+    },
+    "payer_muhuri": {
+      "type": "decimal"
+    },
+    "body": {
+      "type": "decimal"
+    },
+    "hip": {
+      "type": "decimal"
+    },
+    "put": {
+      "type": "decimal"
+    },
+    "hata": {
+      "type": "decimal"
+    },
+    "hatar_muhuri": {
+      "type": "decimal"
+    },
+    "jamar_fara": {
+      "type": "decimal"
+    },
+    "kolar": {
+      "type": "decimal"
+    },
+    "muhuri": {
+      "type": "decimal"
+    },
+    "kol": {
+      "type": "decimal"
+    },
+    "hatar_gher": {
+      "type": "decimal"
+    },
+    "notes": {
+      "type": "text"
+    }
+  }
+}
